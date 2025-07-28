@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #05ddfa;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.weather-box {
+  background: #5d0bea;
+  padding: 20px;
+  margin: auto;
+  width: 320px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #f108bb;
+}
+
+select, button {
+  padding: 10px;
+  margin: 10px;
+  width: 85%;
+  font-size: 16px;
+}
+
+.result-box {
+  margin-top: 20px;
+  font-size: 18px;
+}

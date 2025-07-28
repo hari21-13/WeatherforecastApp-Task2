@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>India Weather Forecast</title>
+  <link rel="stylesheet" href="weathertask2.css">
+</head>
+<body>
+
+  <div class="weather-box">
+    <h2>Weather in Indian States</h2>
+
+<select id="citySelect">
+  <option value="">-- Select a City --</option>
+  <option value="Delhi">Delhi</option>
+  <option value="Mumbai">Mumbai</option>
+  <option value="Chennai">Chennai</option>
+  <option value="Kolkata">Kolkata</option>
+  <option value="Bengaluru">Bengaluru</option>
+  <option value="Hyderabad">Hyderabad</option>
+  <option value="Jaipur">Jaipur</option>
+  <option value="Lucknow">Lucknow</option>
+  <option value="Ahmedabad">Ahmedabad</option>
+  <option value="Bhopal">Bhopal</option>
+</select>
+
+
+    <button onclick="getWeather()">Get Weather</button>
+
+    <div id="weatherResult" class="result-box"></div>
+  </div>
+
+  <script src="weathertask2.js"></script>
+</body>
+</html>
